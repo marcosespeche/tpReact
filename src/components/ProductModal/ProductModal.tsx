@@ -136,10 +136,8 @@ const handleDelete = async () => {
 
                     <Modal.Body>
 
-                    {"Formulario"}
                     <Form onSubmit={formik.handleSubmit}>
                         
-                    {"Titulo"}
                         <Form.Group controlId="formTitulo">
                             <Form.Label>Titulo</Form.Label>
                             <Form.Control
@@ -155,9 +153,7 @@ const handleDelete = async () => {
                                 {formik.errors.title}
                              </Form.Control.Feedback>
                         </Form.Group>
-
-
-                    {"Precio"}                    
+                  
                         <Form.Group controlId="formPrice">
                             <Form.Label>Precio</Form.Label>
                             <Form.Control
@@ -173,9 +169,7 @@ const handleDelete = async () => {
                                 {formik.errors.price}
                              </Form.Control.Feedback>
                         </Form.Group>
-
-
-                    {"Descripción"}                
+             
                         <Form.Group controlId="formDescription">
                             <Form.Label>Descripcion</Form.Label>
                             <Form.Control
@@ -191,8 +185,7 @@ const handleDelete = async () => {
                                 {formik.errors.description}
                              </Form.Control.Feedback>
                         </Form.Group>
-                    
-                    {"Categoria"}                
+                                  
                         <Form.Group controlId="formCategory">
                             <Form.Label>Categoria</Form.Label>
                             <Form.Control
@@ -208,8 +201,7 @@ const handleDelete = async () => {
                                 {formik.errors.category}
                              </Form.Control.Feedback>
                         </Form.Group>
-                    
-                    {"Imagen"}                
+                                 
                         <Form.Group controlId="formImage">
                             <Form.Label>Imagen</Form.Label>
                             <Form.Control
